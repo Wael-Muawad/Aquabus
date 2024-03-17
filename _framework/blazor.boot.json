@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TelerikGanntChart",
   "resources": {
-    "hash": "sha256-g/CUHKDJTuuknDjCXIFwzoGy2Lc2p05vWUDHxHi+cDU=",
+    "hash": "sha256-l93MclngDePJ+reGA0uKCj4xwWMOfvdT8Y1YNEqpjVs=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.ezbnmwi8vw.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -89,7 +89,7 @@
       "Telerik.Recurrence.wasm": "sha256-miWwu3JcFqadXdpAGbRwU9t03YfMDyFKVg7rhchYcAE=",
       "Telerik.SvgIcons.wasm": "sha256-WiWsb+Gqp8vtcOJb5N8fkS+LvpjJ0nomwBOWH0FhFqg=",
       "Telerik.Zip.wasm": "sha256-ZpoQWIJmOat+D8X8KKjECgcBAYesRoHhzdoqiYTrbS8=",
-      "TelerikGanntChart.wasm": "sha256-wgMVLLO1MzjSw2YV9a5jhrO1qYSOT2Au+0qL2Z4qMuk="
+      "TelerikGanntChart.wasm": "sha256-jj9ghlKJxjxOpK0eTptY6di2mf6JRqnFtxulidE5T8A="
     }
   },
   "cacheBootResources": true,
