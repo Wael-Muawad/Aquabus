@@ -1,0 +1,299 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+.page[b-onc2db2x0z] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-onc2db2x0z] {
+    flex: 1;
+}
+
+.sidebar[b-onc2db2x0z] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-onc2db2x0z] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-onc2db2x0z]  a, .top-row[b-onc2db2x0z]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-onc2db2x0z]  a:hover, .top-row[b-onc2db2x0z]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-onc2db2x0z]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row[b-onc2db2x0z] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-onc2db2x0z]  a, .top-row[b-onc2db2x0z]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-onc2db2x0z] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-onc2db2x0z] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-onc2db2x0z] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-onc2db2x0z]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-onc2db2x0z], article[b-onc2db2x0z] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Layout/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-hupuer0256] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-hupuer0256] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-hupuer0256] {
+    font-size: 1.1rem;
+}
+
+.bi[b-hupuer0256] {
+    display: inline-block;
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.75rem;
+    top: -1px;
+    background-size: cover;
+}
+
+.bi-house-door-fill-nav-menu[b-hupuer0256] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-house-door-fill' viewBox='0 0 16 16'%3E%3Cpath d='M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z'/%3E%3C/svg%3E");
+}
+
+.bi-plus-square-fill-nav-menu[b-hupuer0256] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-square-fill' viewBox='0 0 16 16'%3E%3Cpath d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z'/%3E%3C/svg%3E");
+}
+
+.bi-list-nested-nav-menu[b-hupuer0256] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list-nested' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+}
+
+.nav-item[b-hupuer0256] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-hupuer0256] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-hupuer0256] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-hupuer0256]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-hupuer0256]  a.active {
+    background-color: rgba(255,255,255,0.37);
+    color: white;
+}
+
+.nav-item[b-hupuer0256]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-hupuer0256] {
+        display: none;
+    }
+
+    .collapse[b-hupuer0256] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+    
+    .nav-scrollable[b-hupuer0256] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}
+/* /Pages/AquabusComponents/Aquabus.razor.rz.scp.css */
+.arrow_container[b-s92mtzentq] {
+    background-color: #E6594F;
+    color: #fff;
+    display: inline-block;
+    padding-left: 4px;
+}
+
+.arrow[b-s92mtzentq] {
+    border-style: dashed;
+    border-color: transparent;
+    border-width: 0.20em;
+    display: -moz-inline-box;
+    display: inline-block;
+    /* Use font-size to control the size of the arrow. */
+    font-size: 100px;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 0;
+    background-color: #fff; /* change background color acc to bg color */
+    border-left-width: 0.2em;
+    border-left-style: solid;
+    border-left-color: #E6594F;
+    /* background-color: #f6f0c4;
+       background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%); */
+
+    left: 0.25em;
+}
+
+.task-title[b-s92mtzentq] {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.progress_container[b-s92mtzentq] {
+    clip-path: polygon(0% 0%, 75% 0%, 83% 50%, 75% 100%, 0% 100%);
+    background: rgba(252, 98, 87, .7);
+}
+
+.progress[b-s92mtzentq] {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    background: #bdbdbd;
+}
+
+.half_circle_container[b-s92mtzentq] {
+    position: absolute;
+    color: white;
+    z-index: 7;
+    width: 800px;
+    /* height: 50px;
+            background: red; */
+}
+
+.half_circle[b-s92mtzentq] {
+    background: #435263;
+    width: 2rem;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 0 0 2rem 2rem;
+    height: 1.7rem;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.half_circle_container_up[b-s92mtzentq] {
+    position: absolute;
+    color: white;
+    z-index: 7;
+    width: 800px;
+    /*height: 50px;*/
+    /*background: red;*/
+}
+
+.half_circle_up[b-s92mtzentq] {
+    background: #435263;
+    width: 2rem;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 2rem 2rem 0 0;
+    height: 1.7rem;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.half_circle_up_button[b-s92mtzentq] {
+    border-radius: 2rem 2rem 0 0;
+    height: 1.7rem;
+    width: 2rem;
+}
+
+.half_circle_down_button[b-s92mtzentq] {
+    border-radius: 0 0 2rem 2rem;
+    height: 1.7rem;
+    width: 2rem;
+}
+
+.Remove_Styling_Button[b-s92mtzentq] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.expand_circle[b-s92mtzentq] {
+    background: blue;
+}
+
+.gantt_footer[b-s92mtzentq] {
+    width: 1600px;
+    background: #26303c;
+    height: 45px;
+}
+
+.TelerikProgressBar[b-s92mtzentq] {
+}
+
+.TelerikButtons[b-s92mtzentq] {
+    height: 55px;
+    width: 55px;
+    border-radius: 0px;
+}
+
+.TelerikGanttClass[b-s92mtzentq] {
+    opacity: 0.7;
+}
