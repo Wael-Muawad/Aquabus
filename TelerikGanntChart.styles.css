@@ -161,6 +161,15 @@ main[b-onc2db2x0z] {
     }
 }
 /* /Pages/AquabusComponents/Aquabus.razor.rz.scp.css */
+.k-task-content[b-s92mtzentq] {
+    background-image: linear-gradient(147deg, #6b7889 0%, #314a67 74%);
+}
+
+.k-task-single.k-selected[b-s92mtzentq] {
+    color: black !important;
+    background-color: #435263 !important;
+}
+
 .arrow_container[b-s92mtzentq] {
     background-color: #E6594F;
     color: #fff;
@@ -186,7 +195,7 @@ main[b-onc2db2x0z] {
     border-left-style: solid;
     border-left-color: #E6594F;
     /* background-color: #f6f0c4;
-       background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%); */
+    background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%); */
 
     left: 0.25em;
 }
@@ -198,8 +207,8 @@ main[b-onc2db2x0z] {
 }
 
 .progress_container[b-s92mtzentq] {
-    clip-path: polygon(0% 0%, 75% 0%, 83% 50%, 75% 100%, 0% 100%);
-    background: rgba(252, 98, 87, .7);
+    /*clip-path: polygon(0% 0%, 75% 0%, 83% 50%, 75% 100%, 0% 100%);*/
+    /*background: rgba(252, 98, 87, .7);*/
 }
 
 .progress[b-s92mtzentq] {
@@ -208,6 +217,7 @@ main[b-onc2db2x0z] {
     bottom: 0;
     height: 4px;
     background: #bdbdbd;
+    color: red;
 }
 
 .half_circle_container[b-s92mtzentq] {
@@ -216,7 +226,7 @@ main[b-onc2db2x0z] {
     z-index: 7;
     width: 800px;
     /* height: 50px;
-            background: red; */
+    background: red; */
 }
 
 .half_circle[b-s92mtzentq] {
